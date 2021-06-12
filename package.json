@@ -1,6 +1,6 @@
 {
   "name": "applecake",
-  "version": "1.0.0-beta",
+  "version": "1.0.0-charlie",
   "description": "A JavaScript library to create html elements with js easily",
   "main": "dist/applecake 1.0.0-alpha.js",
   "directories": {
