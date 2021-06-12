@@ -14,8 +14,8 @@
     "url": "git+https://github.com/applecakejs/applecake.git"
   },
   "keywords": [
-    "applecake" ,
-    "DOM" ,
+    "applecake",
+    "DOM",
     "render"
   ],
   "author": "mehan alavimajd",
@@ -23,5 +23,6 @@
   "bugs": {
     "url": "https://github.com/applecakejs/applecake/issues"
   },
-  "homepage": "https://github.com/applecakejs/applecake#readme"
+  "homepage": "https://github.com/applecakejs/applecake#readme",
+  "dependencies": {}
 }
