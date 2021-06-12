@@ -8,4 +8,4 @@ applecake is a javascript library for making HTML elements with javascript reall
 
 # Installtion
 you only need to set up your environment and applecake has a great git repository for it : make-applecake-app
-so you can clone it and use <a href="https://github.com/applecakejs/applecake/docs/01-installation/installation.md">Installation guide</a>
+so you can clone it and use <a href="https://github.com/applecakejs/applecake/blob/master/docs/01-Installation/installation.md">Installation guide</a>
