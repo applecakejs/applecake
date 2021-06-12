@@ -1,7 +1,7 @@
 const fs = require("fs");
 let data = "";
 
-const Pack = (arrayOfJsfiles , dist) => {
+const Pack = (arrayOfJsfiles , dist , version) => {
 
   for (const file of arrayOfJsfiles) {
     let fileread = fs.readFileSync(file);
@@ -10,7 +10,7 @@ const Pack = (arrayOfJsfiles , dist) => {
   }
   console.log("\n");
   console.log("everything is done");
-  fs.writeFileSync(`${dist}`, data);
+  fs.writeFileSync(`${dist} ${version}.js`, data);
 };
 
 module.exports = {
