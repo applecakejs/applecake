@@ -24,5 +24,7 @@
     "url": "https://github.com/applecakejs/applecake/issues"
   },
   "homepage": "https://github.com/applecakejs/applecake#readme",
-  "dependencies": {}
+  "dependencies": {
+    "chalk": "^4.1.1"
+  }
 }
