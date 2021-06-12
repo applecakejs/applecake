@@ -14,4 +14,4 @@ cd <your_name>
 ```
 4. open index.html in browser
 and you should see :
-<img src="../images/first view.PNG"></img>
+<img src="../images/first-view.PNG"></img>
