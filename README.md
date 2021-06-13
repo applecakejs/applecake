@@ -9,3 +9,9 @@ applecake is a javascript library for making HTML elements with javascript reall
 # Installtion
 you only need to set up your environment and applecake has a great git repository for it : make-applecake-app
 so you can clone it and use <a href="https://github.com/applecakejs/applecake/blob/master/docs/01-Installation/installation.md">Installation guide</a>
+
+## What Is CRH?
+C Stand for **Components** , R stand for **Renderer** and H stand for **Html**.
+Every Component is a function that returns a string then the renderer (`render.js`) will Render that string to Html file and applecake always use CRH .
+maybe this imae can help you :
+<img src="./images/CRH.png"></img>
