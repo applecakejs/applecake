@@ -15,3 +15,6 @@ C Stand for **Components** , R stand for **Renderer** and H stand for **Html**.
 Every Component is a function that returns a string then the renderer (`render.js`) will Render that string to Html file and applecake always use CRH .
 maybe this image can help you :
 <img src="./images/CRH.png"></img>
+
+## Docs 
+you can find  all docs in <a href="./docs">/docs</a>
