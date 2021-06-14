@@ -15,7 +15,7 @@ function Insert(id , html) {
      selection.innerHTML = html
     
 }
-const IdManger = {
+const IdManager = {
   edit: function (oldid , newid) {
     let select = document.getElementById(`${oldid}`);
     select.id = newid
