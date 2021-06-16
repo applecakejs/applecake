@@ -2,6 +2,8 @@
 .test.js
 .html
 tests/
+test/
+.test.html
 
 # Logs
 logs
