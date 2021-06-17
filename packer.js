@@ -11,10 +11,9 @@ const Pack = (arrayOfJsfiles, filenamedist) => {
   }
   console.log("\n");
   console.log(chalk.greenBright("everything is done"));
-  if (fs.existsSync("./dist")) {
-    fs.rm("./dist", { recursive: true });
+  if (!fs.existsSync("./dist")) {
+    fs.mkdirSync("dist");
   }
-  fs.mkdirSync("dist");
   fs.writeFileSync(`dist/${filenamedist}.js`, data);
 };
 
