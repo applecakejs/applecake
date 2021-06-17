@@ -1,8 +1,8 @@
 const packer = require("./packer")
 packer.Pack(
     [
-        "./lib/render/render.js" ,
-        "./lib/insert/insert.js" ,
+        "./lib/Render/render.js" ,
+        "./lib/Insert/insert.js" ,
         "./lib/ID/idmanager.js"
     ] , "applecake" 
 )
