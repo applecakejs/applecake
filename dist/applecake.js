@@ -36,3 +36,7 @@ const IdManager = {
   }
 };
 
+function IDselector(id) {
+    return document.getElementById(id)
+}
+

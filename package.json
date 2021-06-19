@@ -2,7 +2,7 @@
   "name": "applecake",
   "version": "1.0.0",
   "description": "A JavaScript library to create html elements with js easily",
-  "main": "dist/applecake 1.0.0.js",
+  "main": "dist/applecake.js",
   "directories": {
     "lib": "lib"
   },

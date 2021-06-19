@@ -3,6 +3,7 @@ packer.Pack(
     [
         "./lib/Render/render.js" ,
         "./lib/Insert/insert.js" ,
-        "./lib/ID/idmanager.js"
+        "./lib/ID/Manager/idmanager.js",
+        "./lib/ID/Select/idselector.js"
     ] , "applecake" 
 )
