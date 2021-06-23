@@ -5,7 +5,7 @@ tests/
 test/
 .test.html
 # Vim
-.swp
+*.swp
 # Logs
 logs
 *.log
