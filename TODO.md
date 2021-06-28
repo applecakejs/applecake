@@ -1,0 +1,3 @@
+- [ ] :  adding more docs
+- [ ] :  trying to add importing
+- [ ] :  seperating idmanager functions
