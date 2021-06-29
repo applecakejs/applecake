@@ -1,0 +1,17 @@
+{
+
+    "compilerOptions": {
+            "module": "amd",
+            "noImplicitAny": true,
+            "removeComments": true,
+            "preserveConstEnums": true,
+            "outFile": "./dist/applecake.js",
+            "sourceMap": true
+        },
+        "include": [
+            "lib/**/*"
+        ],
+        "exclude": [
+            "node_modules"
+    ]
+}

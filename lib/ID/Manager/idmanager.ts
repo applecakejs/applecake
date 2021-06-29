@@ -1,15 +1,15 @@
 const IdManager = {
-  edit: (oldid, newid) => {
+  edit: (oldid:string, newid:string) => {
     // edits a html element id
     let select = document.getElementById(`${oldid}`);
     select.id = newid;
   },
-  delete: (oldid) => {
+  delete: (oldid:string) => {
     // deletes a html elements id
     let select = document.getElementById(`${oldid}`);
     select.id = "";
   },
-  switch: (id1, id2) => {
+  switch: (id1:string, id2:string) => {
     // switch two different id
     let id1select = document.getElementById(id1);
     let id2select = document.getElementById(id2);
