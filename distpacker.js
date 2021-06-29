@@ -1,9 +1,9 @@
 const packer = require("./packer")
 packer.Pack(
     [
-        "./lib/Render/render.js" ,
-        "./lib/Insert/insert.js" ,
-        "./lib/ID/Manager/idmanager.js",
-        "./lib/ID/Select/idselector.js"
-    ] , "applecake" 
+        "./lib/Render/render.ts" ,
+        "./lib/Insert/insert.ts" ,
+        "./lib/ID/Manager/idmanager.ts",
+        "./lib/ID/Select/idselector.ts"
+    ] , "dist/typescript", "applecake.ts" 
 )

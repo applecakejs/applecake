@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "exit 0",
-    "start": "node ./distpacker"
+    "start": "tsc",
+    "tspack": "node distpacker.js"
   },
   "repository": {
     "type": "git",
