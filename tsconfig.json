@@ -6,12 +6,14 @@
             "removeComments": true,
             "preserveConstEnums": true,
             "outFile": "./dist/applecake.js",
-            "sourceMap": true
+            "sourceMap": true,
+            "pretty": true 
         },
         "include": [
             "lib/**/*"
         ],
         "exclude": [
-            "node_modules"
+            "node_modules" , 
+            "test"
     ]
 }
