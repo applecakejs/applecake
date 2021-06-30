@@ -3,7 +3,8 @@ packer.Pack(
     [
         "./lib/Render/render.ts" ,
         "./lib/Insert/insert.ts" ,
-        "./lib/ID/Manager/idmanager.ts",
-        "./lib/ID/Select/idselector.ts"
+        "./lib/Idmanager/idmanager.ts",
+        "./lib/Select/idselector.ts",
+        "./lib/Select/classselector.ts"
     ] , "dist/typescript", "applecake.ts" 
 )
