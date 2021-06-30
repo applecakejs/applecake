@@ -1,3 +1,3 @@
-function IDselector(id:string) {
+function IDselector (id:string) {
     return document.getElementById(id)
 }
