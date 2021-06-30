@@ -24,7 +24,7 @@ cd <name>
 Done.
 ### requirements for installing
 - git
-- node >= 8
+- node >= 10
 
 ## What Is CRH?
 C Stand for **Components** , R stand for **Renderer** and H stand for **Html**.
