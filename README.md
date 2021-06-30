@@ -26,11 +26,16 @@ Done.
 - git
 - node >= 10
 
-## What Is CRH?
-C Stand for **Components** , R stand for **Renderer** and H stand for **Html**.
-Every Component is a function that returns a string then the renderer (`render.js`) will Render that string to Html file and applecake always use CRH .
-maybe this image can help you :
-<img src="./images/CRH.png"></img>
+# applecake feautures
+
+#### very fast
+
+applecake.js can render a helloworld h1 text in only 5 ms
+#### simple
+
+applecake is very simple and you can learn it in just 3 days
+#### it's very light
+the applecake dist file is less than 5 kb
 
 ## Docs 
 you can find  all docs in <a href="./docs">/docs</a>
