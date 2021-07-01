@@ -1,5 +1,4 @@
 const fs = require("fs");
-const chalk = require("chalk");
 let data = "";
 
 const Pack = (arrayOfJsfiles, folderofdist , filenamedist) => {
