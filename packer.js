@@ -7,10 +7,10 @@ const Pack = (arrayOfJsfiles, folderofdist , filenamedist) => {
     let fileread = fs.readFileSync(file);
     data += fileread + "\n";
 
-    console.log(chalk.cyanBright(`writing file ${file} is done`));
+    console.log(`writing file ${file} is done`);
   }
   console.log("\n");
-  console.log(chalk.greenBright("everything is done"));
+  console.log("everything is done");
   if (!fs.existsSync(folderofdist)) {
     fs.mkdirSync(folderofdist);
   }
