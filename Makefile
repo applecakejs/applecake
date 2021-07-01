@@ -5,5 +5,6 @@ start:
 	$(PM) run tspack 
 	@rm ./dist/applecake.min.js
 	@touch ./dist/applecake.min.js
+	@$(PM) i -g minify
 	@minify ./dist/applecake.js > ./dist/applecake.min.js
 	@echo "make has done his job"
