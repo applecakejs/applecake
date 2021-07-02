@@ -12,14 +12,14 @@ use :
 ```npm
 npm i -g make-applecake-app
 ```
-then you can :
-```
-make-applecake-app <name>
-```
-to create project 
-and :
+then you create a folder and cd to it :
 ```bash
-cd <name>
+mkdir <name_you_want>
+cd <name_you_want>
+```
+to create project :
+```
+make-applecake-app
 ```
 Done.
 ### requirements for installing
