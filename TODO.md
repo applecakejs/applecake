@@ -1,8 +1,3 @@
-# TODO for 1.0.1rc1
-- [ ] :  adding more docs
-- [ ] :  trying to add importing (#3)
-- [x] :  adding .min.js file
-- [X] :  adding class selector 
 # TODO for 1.0.1rc2
 - [ ] :  removing packer
 - [ ] :  give a new version of make-applecake-app
