@@ -28,4 +28,5 @@ function CLASSselector(classname) {
 function IDselector(id) {
     return document.getElementById(id);
 }
+var doc = document;
 //# sourceMappingURL=applecake.js.map
