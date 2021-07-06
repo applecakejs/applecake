@@ -8,8 +8,7 @@
             "outFile": "./dist/applecake.js",
             "sourceMap": true,
             "pretty": true ,
-            "allowJs": true,
-            "watch": true
+            "allowJs": true
         },
         "include": [
             "lib/**/*",
