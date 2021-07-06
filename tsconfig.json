@@ -9,7 +9,6 @@
             "sourceMap": true,
             "pretty": true ,
             "allowJs": true,
-            "listFiles": true
         },
         "include": [
             "lib/**/*",
