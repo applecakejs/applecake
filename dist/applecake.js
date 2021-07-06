@@ -36,4 +36,7 @@ function IDselector(id) {
     return document.getElementById(id);
 }
 var doc = document;
+var message = function (msg) {
+    alert(msg);
+};
 //# sourceMappingURL=applecake.js.map
