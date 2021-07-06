@@ -1,7 +1,7 @@
 function onClickSelected(variable, func) {
     variable.onclick = func;
 }
-function onClick(id, func) {
+function Onclick(id, func) {
     var a = document.getElementById(id);
     a.onclick = func;
 }
