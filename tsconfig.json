@@ -7,10 +7,12 @@
             "preserveConstEnums": true,
             "outFile": "./dist/applecake.js",
             "sourceMap": true,
-            "pretty": true 
+            "pretty": true ,
+            "allowJs": true
         },
         "include": [
-            "lib/**/*"
+            "lib/**/*",
+            "lib/**/**/*"
         ],
         "exclude": [
             "node_modules" , 

@@ -1,3 +1,10 @@
+function onClickSelected(variable, func) {
+    variable.onclick = func;
+}
+function onClick(id, func) {
+    var a = document.getElementById(id);
+    a.onclick = func;
+}
 var IdManager = {
     edit: function (oldid, newid) {
         var select = document.getElementById("" + oldid);
