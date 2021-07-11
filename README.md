@@ -1,11 +1,4 @@
-applecake is a javascript library for making HTML elements with javascript really easy .
-
-## Why applecake ?
-- Really easy to use
-- It is not heavy
-- It has a <a href="https://github.com/applecakejs/packer">simple packer</a> to put all of file in to a one file
-- It has a <a href="https://github.com/applecakejs/make-applecake-app">template github repository</a> so you don't need to make everything from start
-
+applecake is a javascript library for making HTML elements with javascript really easy 
 # Installation
 You can use make-applecake-app npm project to make a applecake project.
 use : 
@@ -39,3 +32,9 @@ the applecake dist file is less than 5 kb
 
 ## Docs 
 you can find  all docs in <a href="./docs">/docs</a>
+
+# Very Important Note:
+Applecake is going to be replace with a new library from **19 July of 2021** and being read only because :
+- applecake hasn't got virtual dom
+- applecake is light but not enough 
+- applecake doesn't support events
